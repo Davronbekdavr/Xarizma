@@ -1,0 +1,23 @@
+﻿.language-picker{position:relative;flex:0 0 auto;display:inline-flex;align-items:center;gap:9px;height:42px;padding:0 11px;border:1px solid rgba(255,255,255,.15);background:#17181a;color:#d4d1cc;cursor:pointer}
+.language-globe{position:relative;display:block;width:15px;height:15px;border:1px solid var(--orange);border-radius:50%;flex:0 0 15px}
+.language-globe:before{content:"";position:absolute;left:3px;right:3px;top:-1px;bottom:-1px;border:1px solid var(--orange);border-radius:50%}
+.language-globe:after{content:"";position:absolute;left:1px;right:1px;top:6px;border-top:1px solid var(--orange)}
+.language-select{width:98px;border:0;outline:0;background:transparent;color:#f5f1ec;font:600 12px 'DM Sans',sans-serif;cursor:pointer;appearance:none}
+.language-select option{background:#17181a;color:#f5f1ec}
+.language-picker:focus-within{border-color:var(--orange);box-shadow:0 0 0 2px rgba(243,163,76,.14)}
+@media(max-width:1050px){.header-phone{display:none}.main-nav{gap:clamp(12px,2vw,20px)}}
+@media(max-width:780px){
+  .site-header{height:68px}
+  .header-inner{width:calc(100% - 38px);gap:10px}
+  .header-booking{display:none}
+  .nav-toggle{display:flex;position:relative;z-index:2;width:42px;height:42px;background:transparent;border:0;flex:0 0 42px;flex-direction:column;justify-content:center;align-items:center;gap:5px}
+  .nav-toggle i{display:block;width:21px;height:1px;background:#f1efeb;transition:transform .2s,opacity .2s}
+  .nav-toggle.is-open i:first-child{transform:translateY(6px) rotate(45deg)}
+  .nav-toggle.is-open i:nth-child(2){opacity:0}
+  .nav-toggle.is-open i:last-child{transform:translateY(-6px) rotate(-45deg)}
+  .main-nav{display:none;position:absolute;left:0;right:0;top:67px;padding:25px 22px 28px;background:#17181a;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:22px}
+  .main-nav.is-open{display:flex}
+  .main-nav a{font-size:13px}
+  .main-nav a.active:after{display:none}
+}
+@media(max-width:680px){.language-picker{height:36px;padding-inline:8px;gap:6px}.language-select{width:72px;font-size:11px}.header-inner{gap:10px}}

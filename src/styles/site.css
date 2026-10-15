@@ -1,0 +1,10 @@
+@import './global.css';
+@import './layout.css';
+@import './backgrounds.css';
+@import '../components/SiteHeader.css';
+@import '../components/SiteFooter.css';
+@import '../pages/HomePage.css';
+@import '../pages/HallsPage.css';
+@import '../pages/BookingPage.css';
+@import './responsive.css';
+@import './language.css';

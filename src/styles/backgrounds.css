@@ -1,0 +1,6 @@
+/* Background styles are isolated from component layout for easy theme changes. */
+.hero-backdrop{background:radial-gradient(ellipse at 76% 57%,rgba(255,126,29,.16),transparent 28%),radial-gradient(ellipse at 9% 85%,rgba(220,72,13,.08),transparent 32%),#111214}
+.hero-brick{background:radial-gradient(ellipse at 50% 50%,rgba(255,148,31,.12),transparent 58%)}
+.feature-card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018)),#191a1d}
+.feature-cta{background:radial-gradient(ellipse at 14% 50%,rgba(255,135,24,.14),transparent 35%),linear-gradient(110deg,#1b1b1d,#17181a)}
+.halls-cta,.booking-final{background:linear-gradient(105deg,rgba(255,148,31,.11),rgba(255,190,54,.025)),#18191b}
